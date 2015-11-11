@@ -21,7 +21,11 @@ Below is a description of each script used in Beissinger et
 **countSingletonsMaize_downsample.R** Downsamples maize to a sample size equal to teosinte and then counts maize singletons in 1000 bp windows, 
 
 ## Part 2: Code to study demography
+**ConvertSFStoDadi.R** Script to convert SFS and 2D-SFS from ANGSD output format to dadi input format
 
+**realisticBottleneck.py** Python function that specifies the domestication model dadi will optimize.
+
+**FINAL_DOMESTICATION_MODEL_SCRIPT_Linux.py** Script to run 1,000 iterations of dadi to estimate maize and teosinte demographic model.
 
 
 ## Part 2: Code to study selection
