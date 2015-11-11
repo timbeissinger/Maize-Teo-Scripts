@@ -1,6 +1,6 @@
 #Scripts used to analyze linked selection and demography in maize
 
-Below is a description of each script used in Beissinger et
+Below is a description of each script used in Beissinger et al (journal and year TBA). Please feel encouraged to contact the Tim or Jeff (corresponding authors) for further descriptions if needed.
 
 ## Part 1: SFS, Genotype likelihoods, and SNP calling
 
@@ -41,3 +41,17 @@ Below is a description of each script used in Beissinger et
 **TvMT.vep** Use Ensembl Variant Effect Predictor to estimate effects of tripsicum vs. maize/teosinte (both) substitutions.
 
 **H12_array_medWindows.sh** Script to calculate H12 statistic for our data. Windows are of size 200 SNPs with a step of 25 SNPs.
+
+**plotDiversity_TvM.R** This script includes code to look at pairwise diversity surrounding synonymous and non-synonymous substitutions between maize and tripsicum and between teosinte and tripsicum.
+
+**plotDiversity_TvM_Singletons.R** This script includes code to look at singleton diversity surrounding synonymous and non-synonymous substitutions between maize and tripsicum and between teosinte and tripsicum.
+
+**plotDiversity_Weak_Strong.R** This script includes code to look at diversity surrounding synonymous and non-synonymous substitutions between maize and tripsicum at conserved and unconserved sites.
+
+**GENE_GERP.R** This script includes code to look at pairwise diversity surrounding genes and conserved sites (according to GERP).
+
+**GENE_GERP_Singletons.R** This script includes code to look at singleton diversity surrounding genes and conserved sites.
+
+**GENE_GERP_SINGLETONS_Downsampled.R** This script investigates singleton diversity surrounding genes. It includes code to look at singletons from the downsampled set of maize.
+
+**SingletonsVsPi.R** This script simulatneously investigates singleton and pairwise diversity surrounding genes.
