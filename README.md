@@ -24,6 +24,16 @@ Below is a description of each script used in Beissinger et
 
 
 
-## Part 2: R code to study selection
+## Part 2: Code to study selection
 
+**findSubstitutions.R** Identifies substitutions between maize and tripsicum, teosinte and tripsicum, teosinte and maize
 
+**exploreSubsitutions.R** Explores substitutions.
+
+**TvM.vep** Use Ensembl Variant Effect Predictor to estimate effects of tripsicum vs. maize substitutions.
+
+**TvT.vep** Use Ensembl Variant Effect Predictor to estimate effects of tripsicum vs. teosinte substitutions.
+
+**TvMT.vep** Use Ensembl Variant Effect Predictor to estimate effects of tripsicum vs. maize/teosinte (both) substitutions.
+
+**H12_array_medWindows.sh** Script to calculate H12 statistic for our data. Windows are of size 200 SNPs with a step of 25 SNPs.
