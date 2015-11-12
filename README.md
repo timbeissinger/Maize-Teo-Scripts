@@ -27,6 +27,8 @@ Below is a description of each script used in Beissinger et al (journal and year
 
 **FINAL_DOMESTICATION_MODEL_SCRIPT_Linux.py** Script to run 1,000 iterations of dadi to estimate maize and teosinte demographic model.
 
+**MSMC** A directory (with its own readme) containing scripts to run MSMC
+
 
 ## Part 2: Code to study selection
 
