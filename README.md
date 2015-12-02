@@ -1,6 +1,6 @@
 #Scripts used to analyze linked selection and demography in maize
 
-Below is a description of each script used in Beissinger et al (journal and year TBA). Please feel encouraged to contact the Tim or Jeff (corresponding authors) for further descriptions if needed.
+Below is a description of each script used in our [linked selection manuscript](http://biorxiv.org/content/early/2015/11/13/031666). Please email [Tim](mailto:beissingert@missouri.edu) for further descriptions if needed.
 
 ## Part 1: SFS, Genotype likelihoods, and SNP calling
 
